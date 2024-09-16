@@ -2,21 +2,21 @@ public class Fibonachi {
     /**
      * Field for saving the Fibonacci number index
      */
-    private int index;
 
+
+    private int index;
     /**
      * Constructor that initializes the index to 0
      */
-    public Fibonachi() {
-        this.index = 0;
+    public Fibonachi( int index) {
+        setIndex(index);
     }
-
     /**
      * Method that takes the index of the Fibonacci number
      * @param index
      * @return the current index value
      */
-    public int setIndex(int index) {
+    private int setIndex(int index) {
         return this.index = index;
     }
 
@@ -64,5 +64,5 @@ public class Fibonachi {
             //0^3+1 == 1 - 1
             //1^3 + 1 == 2 - 1
             return w * w * w == num -1;
-        }
+    }
 }

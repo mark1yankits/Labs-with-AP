@@ -6,7 +6,7 @@ public class Main {
          * create an object
          * create index for so that we know which index to count the Fibonacci numbers again
          */
-        Fibonachi fib = new Fibonachi();
+
         int index;
         /**
          * Request and read our index
@@ -14,7 +14,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter index: ");
         index = sc.nextInt();
-        fib.setIndex(index) ;
+        Fibonachi fib = new Fibonachi(index);
 
         /**
          * We create an array of size n and fill it with the value null and we add + 1
