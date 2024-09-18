@@ -6,7 +6,7 @@ public class Fibonachi {
 
     private int index;
     /**
-     * Constructor that initializes the index to 0
+     * Constructor that initializes the index 
      */
     public Fibonachi( int index) {
         setIndex(index);
