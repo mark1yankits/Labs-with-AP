@@ -1,0 +1,40 @@
+2024-11-01 10:46:15 [main] INFO  Main - Програма запущена
+2024-11-01 10:46:21 [main] INFO  Main - Користувач обрав: 1
+2024-11-01 10:46:21 [main] INFO  Main - Початок вибору туру
+2024-11-01 10:46:21 [main] INFO  ChoiceTravel - ChoiceTravel об'єкт створено з усіма командами
+2024-11-01 10:46:28 [main] INFO  ChoiceTravel - Користувач обрав опцію: 1
+2024-11-01 10:46:28 [main] INFO  ChoiceTravel - Виконується RestCommand
+2024-11-01 10:46:29 [main] INFO  Rest.RestTour - Вибраний маршрут: 2
+2024-11-01 10:46:34 [main] INFO  Rest.RestTour - Кількість людей: 2
+2024-11-01 10:46:46 [main] INFO  Rest.RestTour - Кількість днів: 3
+2024-11-01 10:46:47 [main] INFO  Rest.RestTour - Вибраний транспорт: Літак, Ціна квитка: 150.0
+2024-11-01 10:46:50 [main] INFO  Rest.RestTour - Вибрано харчування: Full Board, Вартість харчування на день: 30.0
+2024-11-01 10:46:50 [main] INFO  Rest.RestTour - Вибраний напрямок: Spain (Barcelona), Валюта: €
+2024-11-01 10:46:50 [main] INFO  Rest.RestTour - Розрахунок загальної вартості: 960.0 €
+2024-11-01 10:46:50 [main] INFO  Rest.RestTour - Деталі туру: 2, Загальна вартість: 960.0 €
+2024-11-01 10:46:51 [main] INFO  ChoiceTravel - Користувач обрав опцію: 1
+2024-11-01 10:46:51 [main] INFO  ChoiceTravel - Виконується RestCommand
+2024-11-01 10:46:53 [main] INFO  Rest.RestTour - Вибраний маршрут: 1
+2024-11-01 10:46:54 [main] INFO  Rest.RestTour - Кількість людей: 2
+2024-11-01 10:46:55 [main] INFO  Rest.RestTour - Кількість днів: 1
+2024-11-01 10:46:56 [main] INFO  Rest.RestTour - Вибраний транспорт: Автобус, Ціна квитка: 40.0
+2024-11-01 10:46:58 [main] INFO  Rest.RestTour - Вибрано харчування: Breakfast, Вартість харчування на день: 10.0
+2024-11-01 10:46:58 [main] INFO  Rest.RestTour - Вибраний напрямок: UK (London), Валюта: £
+2024-11-01 10:46:58 [main] INFO  Rest.RestTour - Розрахунок загальної вартості: 200.0 £
+2024-11-01 10:46:58 [main] INFO  Rest.RestTour - Деталі туру: 2, Загальна вартість: 200.0 £
+2024-11-01 10:47:00 [main] INFO  ChoiceTravel - Користувач обрав опцію: 6
+2024-11-01 10:47:00 [main] INFO  ChoiceTravel - Користувач завершив програму.
+2024-11-01 10:47:00 [main] INFO  ChoiceTravel - Сканер закрито після завершення меню вибору.
+2024-11-01 10:47:00 [main] INFO  Main - Вибір туру завершено
+2024-11-01 10:50:27 [main] INFO  Main - Програма запущена
+2024-11-01 10:50:30 [main] INFO  Main - Користувач обрав: 1
+2024-11-01 10:50:30 [main] INFO  Main - Початок вибору туру
+2024-11-01 10:50:30 [main] INFO  ChoiceTravel - ChoiceTravel об'єкт створено з усіма командами
+2024-11-01 10:52:42 [main] INFO  Main - Програма запущена
+2024-11-01 10:52:45 [main] ERROR Main - Сталася критична помилка: null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Scanner.java:964) ~[?:?]
+	at java.util.Scanner.next(Scanner.java:1619) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2284) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2238) ~[?:?]
+	at Main.main(Main.java:29) [classes/:?]
