@@ -15,7 +15,7 @@
         <SMTP name="EmailAppender" subject="Critical Error in Application"
               to="marcusik6509@gmail.com" from="manahsub1551@gmail.com"
               smtpHost="smtp.gmail.com" smtpPort="465"
-              smtpUsername="manahsub1551@gmail.com" smtpPassword="zprr nitz lsjd bdrz"
+              smtpUsername="manahsub1551@gmail.com" smtpPassword="zp"
               smtpProtocol="smtps" smtpDebug="true">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
             <Filters>
